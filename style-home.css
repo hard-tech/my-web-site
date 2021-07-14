@@ -1,0 +1,123 @@
+/* début code page général */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:ital,wght@1,200&display=swap');
+.haut{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: -55px auto;
+}
+
+.haut{margin: 15px auto; color: rgb(255, 255, 255); background-color: #333; border-radius: 10px; border: 6px solid #4CAF50;}
+h1 {font-size: large;}
+
+body{
+        background-position: center;
+        background-position: top;
+        background-attachment: fixed;  
+        font-family: 'Montserrat', sans-serif;
+        font-size: small;
+}
+
+@media (min-width: 850px){
+    .all{
+    width: 850px;
+    margin-right: auto;
+    margin-left: auto;}
+    li a {padding: 16px 18px;}
+    }
+
+
+
+ ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+@media (max-width: 850px) {
+    li a {padding: 16px 18px;}
+    .all{width: 100%;margin-right: auto;margin-left: auto;}
+    iframe{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex   ;
+        margin: 100px auto;
+    }
+    
+}
+
+@media (max-width: 850px) {
+    .img{width: 50px;height: 50px;font-size: small;}
+    .box{width: 100%;height: 300px;}
+    
+}
+
+.box{
+    border: 1.8mm ridge rgb(255, 255, 255);
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 100px auto auto -7.6px;
+    color: white;
+    background-color: rgb(24, 24, 24);  
+    border-radius: 20px;
+}
+
+@media (min-width: 850px){
+    .box{width: 100%;height: 500px;font-size: large;}
+    iframe{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex   ;
+        margin: 100px auto;
+    }
+    
+}
+
+@media(max-width:380px){
+    iframe{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex   ;
+        margin: 100px auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px){
+    li a {padding: 7px 8px;}
+}
+
+li {
+    float: left;
+    border-right:1px solid rgb(24, 24, 24);
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+ol{
+    display: block;
+    border-radius: 5px;
+    margin: auto 0 auto 0 auto;
+}
+
+
+/* fin code générale */
