@@ -37,7 +37,7 @@
         
 
         
-        input[type=text], input[type=password] {   
+        input[type=text], input[type=password]{   
                 width: 100%;   
                 margin: 8px 0;  
                 padding: 12px 20px;   
@@ -46,6 +46,7 @@
                 box-sizing: border-box;  
                 border-radius: 5px; 
             }  
+
         button:hover {   
                 opacity: 0.7; 
                 background-color: rgb(75, 75, 75);  
@@ -69,21 +70,44 @@
             text-decoration: none;
             color: rgb(7, 7, 7);
         }
-    
         
+        .bbox{display: flex;}
+        .nom{width: 50%; padding-right: 5px;}
+        .prénom{width: 50%; padding-left: 5px;}
+        label{margin-right: 5px;}
         
         </style>  
         <font color="white">
         </head>   
         
-            <form action="login.php" method="POST"> 
-                <div class="container">   
+            <form action=""  method="POST" enctype="multipart/form-data"> 
+                <div class="container"> 
+
+                    <div class="bbox">
+                        <div class="nom">
+                            <label for="nom">Nom :</label> 
+                            <input type="text" placeholder="Enter votre Nom" name="nom" required id="nom">
+                        </div>
+
+                        <div class="prénom">
+                            <label for="prénom">Prénom : </label>  
+                            <input type="text" placeholder="Enter votre Prénom" name="prénom" required id="prénom">
+                        </div>
+                    </div>
+                        
+                    <label for="psedo">Psedo : </label>   
+                    <input type="text" placeholder="Enter votre adresse Psedo" name="psedo" required id="psedo" name="psedo">  
+
                     <label for="mail">E-mail : </label>   
-                    <input type="text" placeholder="Enter votre adresse e-mail" name="e-mail" required id="mail">  
+                    <input type="text" type="email" placeholder="Enter votre adresse e-mail" name="e-mail" required id="mail" name="mail"> 
+
                     <label for="pass">Password : </label>   
-                    <input type="password" placeholder="Enter votre mot de pass" name="password" required id="pass">  
-                    <button type="submit" class="btn">Envoyer</button>   
+                    <input type="password" placeholder="Enter votre mot de pass" required id="pass" name="pass"> 
+
+                    <button type="submit" class="btn" name="envoi">Envoyer</button> 
+
                     <input type="checkbox" checked="checked"> Remember me   
+
                     <button type="button" class="cancelbtn"> Cancel</button>   
                 </div>   
             </form>   

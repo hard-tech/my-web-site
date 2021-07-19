@@ -1,3 +1,16 @@
+<?php
+// Attention pour serveur publique remplacer 'localhost' par le nom et mettre le pass après 'root'
+//$bdd = new PDO('mysql:host=localhost;dbname=espace-menbres;charset=utf8', 'root');
+//$mail = htmlspecialchars($_POST ['mail']);
+//$pass =  sha1($_POST ['pass']);
+//$insertUser = $bdd ->prepare('INSERT INTO users(mail, pass) VALUES(?,?)');
+//$insertUser -> execute(array($mail, $pass));
+//
+
+
+//if(isset($_POST['envoi']));
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -76,14 +89,19 @@
         <font color="white">
         </head>   
         
-            <form action="login.php" method="POST"> 
+        <form action="" method="POST" enctype="multipart/form-data"> 
                 <div class="container">   
+
                     <label for="mail">E-mail : </label>   
-                    <input type="text" placeholder="Enter votre adresse e-mail" name="e-mail" required id="mail">  
+                    <input type="text" type="email" placeholder="Enter votre adresse e-mail" name="e-mail" required id="mail" name="mail"> 
+
                     <label for="pass">Password : </label>   
-                    <input type="password" placeholder="Enter votre mot de pass" name="password" required id="pass">  
-                    <button type="submit" class="btn">Envoyer</button>   
+                    <input type="password" placeholder="Enter votre mot de pass" required id="pass" name="pass"> 
+
+                    <button type="submit" class="btn" name="envoi">Envoyer</button> 
+
                     <input type="checkbox" checked="checked"> Remember me   
+                    
                     <button type="button" class="cancelbtn"> Cancel</button>   
                 </div>   
             </form>   
