@@ -8,11 +8,11 @@
     </head>
 <div class="all">
     <title>Hard-tech</title>
-    <body background="./image/ox6j99.png">
+    <body background="./image/nkwyy6.jpg">
 
                 <ol>
                     <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="Proget.html">Proget</a></li>
+                    <li><a href="Site web.html">Site web</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li ><a href="login.html">Login</a></li>
                     <li ><a href="sign-in.html">Sign in</a></li>
@@ -73,7 +73,7 @@
         
         .bbox{display: flex;}
         .nom{width: 50%; padding-right: 5px;}
-        .prénom{width: 50%; padding-left: 5px;}
+        .prenom{width: 50%; padding-left: 5px;}
         label{margin-right: 5px;}
         
         </style>  
@@ -89,9 +89,9 @@
                             <input type="text" placeholder="Enter votre Nom" name="nom" required id="nom">
                         </div>
 
-                        <div class="prénom">
-                            <label for="prénom">Prénom : </label>  
-                            <input type="text" placeholder="Enter votre Prénom" name="prénom" required id="prénom">
+                        <div class="prenom">
+                            <label for="prenom">Pr&eacute;nom : </label>  
+                            <input type="text" placeholder="Enter votre Prenom" name="prenom" required id="prenom">
                         </div>
                     </div>
                         
