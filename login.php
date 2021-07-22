@@ -21,19 +21,28 @@
     </head>
 <div class="all">
     <title>Hard-tech</title>
-    <body background="./image/ox6j99.png">
-
-                <ol>
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="Site web.html">Site web</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li ><a href="login.html">Login</a></li>
-                    <li ><a href="sign-in.html">Sign in</a></li>
-                    <li style="float:right"><a href="about.html">About</a></li>
-                </ol>
-            
-    <div class="haut">
-        <h1>Site officiel de hard-tech</h1>
+    <body background="./image/ox6j99.png"><div class="nav">
+                    <nav>
+                        <ul>
+                            <li><a class="active" href="index.html">Home</a></li>
+                            <li class="deroulant"><a href="#">Projet</a>
+                                <ul class="sous">
+                                    <li class="deroulant">
+                                    <li><a href="Site web.html">Web Site </a></li>
+                                </ul>
+                            <li class="deroulant"><a href="#">Login / Sign in</a>
+                                <ul class="sous">
+                                    <li ><a href="login.html">Login</a></li>
+                                    <li ><a href="sign-in.html">Sign in</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li style="float:right"><a href="about.html">About</a></li>
+                        </ul>
+                    </nav>
+        <div class="haut">
+            <h1>Site officiel de hard-tech</h1>
+        </div>
     </div>
     <style>   
     

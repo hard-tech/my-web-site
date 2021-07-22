@@ -8,34 +8,43 @@
     </head>
 <div class="all">
     <title>Hard-tech</title>
-    <body background="./image/ox6j99.png">
-                    <ol>
-                        <li><a class="active" href="index.html">Home</a></li>
-                        <li><a href="Site web.html">Site web</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+    <body background="./image/ox6j99.png"><div class="nav">
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li class="deroulant"><a href="#">Projet</a>
+                    <ul class="sous">
+                        <li class="deroulant">
+                        <li><a href="Site web.html">Web Site </a></li>
+                    </ul>
+                <li class="deroulant"><a href="#">Login / Sign in</a>
+                    <ul class="sous">
                         <li ><a href="login.html">Login</a></li>
                         <li ><a href="sign-in.html">Sign in</a></li>
-                        <li style="float:right"><a href="about.html">About</a></li>
-                    </ol>
-                
-        <div class="haut">
-            <h1>Site officiel de hard-tech</h1>
-        </div>
-            <div class="site">
-
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li style="float:right"><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+<div class="haut">
+<h1>Site officiel de hard-tech</h1>
+</div>
+</div>
+            <div class="box" id="box">
+                    <div class="b1"><h2 align='center'><div class="neon">Site style néon <div class="R">(Rouge)</div></div></h2></div>
+                    <div class="b2"><h2 align='center'><div class="neon">Site style néon <div class="V">(Vert)</div></div></h2></div>
+                    <div class="b3"><h2 align='center'><div class="neon">Site style néon <div class="B">(Bleu)</div></div></h2></div>
             </div>
+            
     </body> 
 </div>
-    
 <style>
-    .site{
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        background-color: #333;
-        border-radius: 15px;
-        border: 2px white;
-    }
+    #box{display: flex;}
+    .b1{padding: 10px; width: 33%; border-right: 1.8mm ridge rgb(255, 255, 255);}
+    .b2{padding: 10px; width: 33%;border-right: 1.8mm ridge rgb(255, 255, 255);}
+    .b3{padding: 10px; width: 33%;}
+    
 </style>
 
 </html>
