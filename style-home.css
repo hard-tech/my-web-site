@@ -89,11 +89,13 @@ body{
     .box{height: 240px;}
     .container{padding: 15px;}
     .cancelbtn{padding: 5px 9px;font-size: xx-small;}
+    .r{font-size: 6px ; margin-left: -5px;}
 }
 
 @media (min-width: 507px){
     .container{padding: 30px;}
     .cancelbtn{padding: 10px 18px;}
+    .r{font-size: x-small ;}
 }
 
 a{
@@ -140,9 +142,11 @@ ol{
             text-shadow: 0 0 5px black, 0 0 10px #fff;
         }       
 
-    .R{ color: red; text-shadow: 0 0 5px black, 0 0 10px rgb(255, 0, 0); }
+    .R{ color: rgb(255, 0, 0); text-shadow: 0 0 5px black, 0 0 10px rgb(255, 0, 0); }
     .V{ color: rgb(0, 255, 0); text-shadow: 0 0 5px rgb(21, 255, 0), 0 0 10px rgb(0, 255, 0);;}
-    .B{ color: blue; text-shadow: 0 0 5px black, 0 0 10px blue; ;}
+    .B{ color: rgb(0, 81, 255); text-shadow: 0 0 5px black, 0 0 10px rgb(0, 68, 255); ;}
+    .J{ color: yellow; text-shadow: 0 0 5px black, 0 0 10px yellow; }
+
 
 /* fin code générale */
 
@@ -252,8 +256,10 @@ nav > ul li:hover .sous{
 }
 .sous a{
     padding: 10px;
-    border-bottom: none; 
+    border-bottom: none;
 }
+
+
 .sous a:hover{
     border-bottom: none;
     background-color: RGBa(200,200,200,0.1);
